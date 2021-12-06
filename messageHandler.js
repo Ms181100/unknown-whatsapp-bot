@@ -250,7 +250,7 @@ apa? mau traktir aku? boleh banget https://saweria.co/salismazaya`.replace("(jik
 
 			const imagePath = await conn.downloadAndSaveMediaMessage(message, Math.floor(Math.random() * 1000000));
 
-			const sticker = new WSF.Sticker("./" + imagePath, { crop: false, pack: "WhatsApp Sticker", author: 'Unknown-User});
+			const sticker = new WSF.Sticker("./" + imagePath, { crop: false, pack: "i hope you fine :)", author: 'Sugito Tempest});
 
 			await sticker.build();
 
